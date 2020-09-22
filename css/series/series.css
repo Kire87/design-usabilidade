@@ -1,10 +1,27 @@
 body {
-	background-color: black;
-	color: red;
+  background-color: black;
+  color: red;
 }
 
 .back {
   position: absolute;
+}
+
+.flex-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flex-img{
+  flex: 1 1 30%;
 }
 
 .banner {
@@ -29,13 +46,14 @@ body {
 .grid-container {
   display: grid;
   grid-template-areas: 
-  	'banner banner banner'
-  	'menu main right';
+    'banner banner banner'
+    'menu main right';
 
-  grid-template-columns: 200px auto 200px;
+  grid-template-columns: 200px 650px 200px;
   grid-template-rows: auto auto auto;
 
   padding: 10px;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
+  justify-content: center;
 }

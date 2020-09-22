@@ -24,12 +24,13 @@ body {
   	'banner banner'
   	'menu main';
 
-  grid-template-columns: 200px auto 200px;
-  grid-template-rows: auto auto auto;
+  grid-template-columns: 200px 860px;
+  grid-template-rows: auto auto;
 
   padding: 10px;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
+  justify-content: center;
 }
 table {
     table-layout: fixed;
