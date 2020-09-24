@@ -32,7 +32,32 @@ body {
   grid-row-gap: 10px;
   justify-content: center;
 }
-table {
-    table-layout: fixed;
-    width: 300px;
+table, th, td {
+  table-layout: fixed;
+  width: 300px;
+  border: 1px solid red;
+}
+
+.iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.flex-gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gallery {
+  width: 110px;
+  border: 1px solid red;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
 }
