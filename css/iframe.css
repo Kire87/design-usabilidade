@@ -67,3 +67,15 @@ body {
     height: 100%;
     border: 0;
   }
+  .ahome {
+    height: 50px;
+    width: 150px;
+    background-color: #383838;
+    padding: 4px;
+    background-clip: content-box;
+  }
+  .imghome {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
